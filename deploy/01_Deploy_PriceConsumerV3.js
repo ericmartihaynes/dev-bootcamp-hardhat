@@ -15,7 +15,7 @@ module.exports = async ({
         ethUsdPriceFeedAddress = EthUsdAggregator.address
     } else {
         ethUsdPriceFeedAddress = networkConfig[chainId]['ethUsdPriceFeed']
-    }
+     }
     // Price Feed Address, values can be obtained at https://docs.chain.link/docs/reference-contracts
     // Default one below is ETH/USD contract on Kovan
     log("----------------------------------------------------")
